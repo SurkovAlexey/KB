@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Главная
+{% endblock %}
+{% block content %}
+<div class="main_cont">
+    <div class="main_cont_item">
+        <h2>Команда DKIP-Team</h2>
+        <h2>Помощь студентам IT специальностей</h2>
+        <div class="main_b">
+        <img src="{% static 'Images/d.jpg' %}" width="35" height="35"><p>Помощь с дипломом и курсовыми</p>
+        </div>
+        <div class="main_b">
+        <img src="{% static 'Images/d.jpg' %}" width="35" height="35"><p>Подготовка к экзаменам и тестам</p>
+        </div>
+        <div class="main_b">
+        <img src="{% static 'Images/d.jpg' %}" width="35" height="35"><p>Консультации по практике</p>
+        </div>
+        <div class="main_b">
+        <img src="{% static 'Images/d.jpg' %}" width="35" height="35"><p>Помощь с заданиями</p>
+        </div>
+        <div class="main_b">
+        <img src="{% static 'Images/d.jpg' %}" width="35" height="35"><p>Формирование RoadMap</p>
+        </div>      
+    </div>
+    <div class="main_cont_item">
+        <img src="{% static 'Images/maint.png' %}" width="640" height="420">
+    </div>
+</div>
+{% endblock %}

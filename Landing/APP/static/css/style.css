@@ -1,0 +1,93 @@
+.menu{
+    background: linear-gradient(45deg, #82f8c1 33%, #6f8ceb 66%, #a66cf1);
+    width: 95%;
+    margin: 0 auto;
+    opacity: 0.70; 
+	filter: alpha(Opacity=70);
+    display: flex;
+    justify-content: space-around;
+    padding:  1%;
+    }
+.menu_item_logo{
+    color:rgb(47, 34, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+}
+.menu_item{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    width: 190px;
+    padding: 5px;
+    text-align: center;
+    }
+.menu_item:hover{
+    color: rgb(2, 5, 214);
+    }
+.contacts_cont{
+    margin-left: 50px;
+    text-align:justify;
+    }
+.main_cont{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding:  1%;
+    }
+.main_b{
+    display: flex;
+    
+}
+.main_cont_item{
+    margin-left: 50px;
+    text-align:justify;
+ }
+.about_us_cont{
+    display: flex;
+    }
+.about_us_cont_item{
+    margin-left: 50px;
+    display: block;
+    text-align:center;
+    }
+footer{
+    width: 95%;
+    text-align: center;
+    background: linear-gradient(45deg, #82f8c1 33%, #6f8ceb 66%, #a66cf1);
+    color: #050505;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0.70; 
+	filter: alpha(Opacity=70);
+    margin: 0 auto;
+    }
+form{
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #050505;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 17px;
+    
+    }
+button{
+    background-color: #333;
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    }
+button:hover {
+    background-color:rgb(94, 84, 238);
+    color:#161616 ;
+    }
+    

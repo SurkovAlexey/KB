@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <a class="menu_item_logo"><i>DKIP-Team</i></a>
+            <a href="/main/" class=" menu_item">Главная страница </a>
+            <a href="/about_us/" class=" menu_item">О нашем проекте </a>
+            <a href="/contacts/" class=" menu_item">Наши контакты </a>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <p>&copy; Сурков А. В. 2024 Все права защищены.</p>
+    </footer>  
+</body>
+</html>

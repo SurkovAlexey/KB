@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+О нас
+{% endblock %}
+{% block content %}
+<div class="about_us_cont">
+    <div class="about_us_cont_item">
+    <h2>Команда DKIP-team</h2>
+    <h2><i>Мы компания друзей, которая увлекается программированием, и уже успели накопить небольшой, но классный опыт
+         в решении различных задач. Еcли Вы cтудент, ищущий нaдeжную пoмощь в учебных пpоектах и задачах, мы сдесь,
+         чтобы поделиться опытом и помочь ! Так же будем рады интересным совместным проектам и новым друзьям !</i></h2>
+    </div>
+    <div class="about_us_cont_item">
+        <img src="{% static 'Images/help.jpg' %}" width="800" height="460">
+    </div>
+    
+</div>
+{% endblock %}

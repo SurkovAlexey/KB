@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Контакты
+{% endblock %}
+{% block content %}
+<div class="contacts_cont">
+    <h2>Наши контакты</h2>
+    <p>E-mail: alexa_email@mail.ru</p>
+    <h3>Вы можете задать свой вопрос на сайте:</h3>
+</div>
+
+<Form method="POST">
+{% csrf_token %}
+{{ form.as_p}}
+<button type="submit">Отправить</button>
+</Form>
+{% endblock %}
