@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_5</title>
+
+</head>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+ </head>
+ <body>
+    <div class='wrapper'>
+        <div class="menu">
+               <a href="/code/" class=" menu_item">Программирование </a>
+                  <a href="/ii/" class=" menu_item">Искусственный интеллект </a>
+                     <a href="/secure/" class=" menu_item">Безопасность </a>
+                        <a href="/cloud/" class=" menu_item">Облачные технологии </a>
+                           <a href="/bigdata/" class=" menu_item">Большие данные</a></div>
+  
+<h1>Информационные технологии</h1>
+{% block head %}
+<img src="{% static 'Images/pic6.png' %}">
+<h2>Подзаголовок страницы</h2>
+{% endblock %}
+        <div class="text_block">
+            {% block text %}
+            {% endblock %}
+            <div class = "text_item">{% block text1 %}
+              <p>Текст 1</p> 
+              {% endblock %}       
+                    </div>
+            <div class = "text_item">{% block text2 %}
+              <p>Текст 2</p> 
+              {% endblock %}   
+                    </div>
+        </div>
+      
+        <div class="pic_menu">
+        
+            <a href="/code/" class="pic_menu_item"><img src="{% static 'Images/pic1.png' %}"><h4>Программирование</h4></a>
+              <a href="/ii/" class="pic_menu_item"><img src="{% static 'Images/pic3.png' %}"><h4>Искусственный интеллект</h4></a>
+                <a href="/secure/" class="pic_menu_item"><img src="{% static 'Images/pic2.png' %}"><h4>Безопасность</h4></a>
+                  <a href="/bigdata/" class="pic_menu_item"><img src="{% static 'Images/pic4.png' %}"><h4>Большие данные</h4></a>
+                    <a href="/cloud/" class="pic_menu_item"><img src="{% static 'Images/pic5.png' %}"><h4>Облачные технологии</h4></a>   
+       
+            </div>
+</div>
+<footer>
+        <p>&copy; Сурков А. В. 2024 Все права защищены.</p>
+    </footer>  
+</body>
+
+</html>
